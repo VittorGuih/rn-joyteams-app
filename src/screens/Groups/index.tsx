@@ -1,11 +1,13 @@
-import { Text, View } from "react-native";
+import { Text } from "react-native";
+import { Container, ContainerText } from "./styles";
 
-export function Groups(){
+export function Groups() {
     return (
-        <View>
-            <Text>
+        <Container>
+            <ContainerText>
                 Groups
-            </Text>
-        </View>
+            </ContainerText>
+        </Container>
     )
 }
+
