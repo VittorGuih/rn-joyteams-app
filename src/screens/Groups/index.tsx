@@ -1,12 +1,10 @@
 import { Text } from "react-native";
-import { Container, ContainerText } from "./styles";
+import { Container } from "./styles";
 
 export function Groups() {
     return (
         <Container>
-            <ContainerText>
-                Groups
-            </ContainerText>
+            
         </Container>
     )
 }
