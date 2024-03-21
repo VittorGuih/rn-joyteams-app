@@ -1,6 +1,5 @@
 import styled from "styled-components/native";
 import { CaretLeft } from "phosphor-react-native";
-import theme from "@theme/index";
 
 export const Container = styled.View`
     width: 100%;
