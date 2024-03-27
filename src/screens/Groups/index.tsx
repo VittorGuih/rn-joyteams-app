@@ -1,15 +1,16 @@
+import { useState } from "react";
+
 import { Highlight } from "@components/Highlight";
-import { Container } from "./styles";
 import { Header } from "@components/Header";
 import { GroupCard } from "@components/GroupCard";
-import { useState } from "react";
-import { FlatList, Text } from "react-native";
 import { ListEmpty } from "@components/ListEmpty";
 import { GroupList } from "@components/GroupList";
 import { Button } from "@components/Button";
 
+import { Container } from "./styles";
+
 export function Groups() {
-    const [groups, setGroups] = useState<string[]>([]);
+    const [groups, setGroups] = useState<string[]>(['teste', 'teste']);
     const EMPTY_LIST_MESSAGE = "🎮 Que tal cadastrar a primeira turma? 🎮";
     return (
         <Container>
